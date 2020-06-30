@@ -2,6 +2,6 @@ language: haskell
 ghc:
   - 8.4
   - 8.8
-  - 8.10
+  - "8.10"
 setup:
   - travis_wait 30 cabal update
