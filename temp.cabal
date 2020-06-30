@@ -1,0 +1,32 @@
+-- This file is part of Temp.
+--
+-- Temp is free software: you can redistribute it and/or modify
+-- it under the terms of the GNU General Public License as published by
+-- the Free Software Foundation, either version 3 of the License, or
+-- (at your option) any later version.
+--
+-- Temp is distributed in the hope that it will be useful,
+-- but WITHOUT ANY WARRANTY; without even the implied warranty of
+-- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+-- GNU General Public License for more details.
+--
+-- You should have received a copy of the GNU General Public License
+-- along with Temp.  If not, see <http://www.gnu.org/licenses/>.
+
+Name:		temp
+Version:	0.0.0.1
+Cabal-version:	>= 1.10
+Copyright:	(C) 2015 Dr. Alistair Ward
+License:	GPL
+Author:		Dr. Alistair Ward
+Synopsis:	Temporary test-program.
+Build-type:	Simple
+
+Executable temp
+    Default-language:	Haskell2010
+    GHC-options:	-O2 -Wall -fno-warn-tabs
+    GHC-prof-options:	-fprof-auto -fprof-cafs
+    Main-is:		Main.hs
+
+    Build-depends:	base
+
